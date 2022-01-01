@@ -127,6 +127,7 @@ npx create-react-app <project_name>
   1. const name = require("<path>")
   2.  import name from "<path>"
   ```
+    - One of the major differences between require() and import() is that require() can be called from anywhere inside the program whereas import() cannot be called conditionally, it always runs at the beginning of the file. To use the require() statement, a module must be saved with . js extension as opposed to .
 
 # Props and dynamic content
 
